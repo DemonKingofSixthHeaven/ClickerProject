@@ -22,4 +22,8 @@ public class SceneM : MonoBehaviour
         //ScoreC.instance.ScoreCount= scores.score;
 
     }
+    public void quit()
+    {
+        Application.Quit();
+    }
 }

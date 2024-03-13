@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e68b013e7dfa9e499f188ed65f2cf4e, type: 3}
   m_Name: Scores
   m_EditorClassIdentifier: 
-  clickValue: 0
+  clickValue: 1
   score: 0
   DPS: 0
