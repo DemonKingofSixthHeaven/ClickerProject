@@ -34,7 +34,19 @@ public class SeriManager : MonoBehaviour
             return null;
         }
         BinaryFormatter formatter = getBinaryFormatter ();
-        return null;
+        FileStream file = File.Open(path, FileMode.Open);
+        try
+        {
+            object Save = formatter.Deserialize(file);
+            file.Close();
+            return Save;
+        }
+        catch
+        {
+            Debug.LogErrorFormat("Failed to load flie at {0}", path);
+            file.Close();
+            return null;
+        }
         
 
     }

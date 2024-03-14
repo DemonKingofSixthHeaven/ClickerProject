@@ -1,7 +1,9 @@
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class SceneM : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class SceneM : MonoBehaviour
     }
     public void GameStart()
     {
-
+        //SaveData.current = (SaveData)SeriManager.Load(Application.persistentDataPath + "/saves/Save.save");
         SceneManager.LoadScene(1);
         //ScoreC.instance.Clickpower=scores.clickValue ;
         //ScoreC.instance.ScoreCount= scores.score;
