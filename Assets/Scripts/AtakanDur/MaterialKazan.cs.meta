@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 01312d4a80fe075418c308cc869aae09
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - kazanrenk: {fileID: 2100000, guid: 88450548cabec2448a4ba0c192e3dacd, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
